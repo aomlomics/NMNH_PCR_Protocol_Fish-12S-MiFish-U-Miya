@@ -26,7 +26,7 @@ maturity level: mature
 pcr_0_1: 1
 thermocycler: Eppendorf Mastercycler Nexus Thermal Cycler
 amplificationReactionVolume: 10
-assay_name: Fish-12S-MiFish-Miya
+assay_name: Fish-12S-MiFish-U-Miya
 assay_validation: not provided
 targetTaxonomicAssay: Actinopterygii
 targetTaxonomicScope: "Also captures non-target: Vertebrates, bacteria"
