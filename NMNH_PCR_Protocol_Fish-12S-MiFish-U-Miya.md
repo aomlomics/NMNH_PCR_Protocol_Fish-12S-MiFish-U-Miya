@@ -451,4 +451,4 @@ For running these libraries on the MiSeq, we recommend spiking 20% PhiX into you
 
 ## APPENDIX A: DATASHEETS
 
-Not applicable
+Not applicable.
