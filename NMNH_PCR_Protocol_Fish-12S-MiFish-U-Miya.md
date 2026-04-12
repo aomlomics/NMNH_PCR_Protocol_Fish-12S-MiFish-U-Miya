@@ -1,4 +1,5 @@
 ---
+
 # MIOP terms
 methodology_category: omics analysis
 project: "NOAA Ocean Exploration seawater eDNA metabarcoding"
@@ -38,8 +39,8 @@ pcr_primer_forward: GTCGGTAAAACTCGTGCCAGC
 pcr_primer_reverse: CATAGTGGGGTATCTAATCCCAGTTTG
 pcr_primer_name_forward: MiFish-U-F
 pcr_primer_name_reverse: MiFish-U-R
-pcr_primer_reference_forward: http://dx.doi.org/10.1098/rsos.150088
-pcr_primer_reference_reverse: http://dx.doi.org/10.1098/rsos.150088
+pcr_primer_reference_forward: http://doi.org/10.1098/rsos.150088
+pcr_primer_reference_reverse: http://doi.org/10.1098/rsos.150088
 pcr_primer_vol_forward: 0.3
 pcr_primer_vol_reverse: 0.3
 pcr_primer_conc_forward: 10
@@ -74,6 +75,7 @@ pcr2_annealingTemp: 65
 pcr2_cycles: 5-8
 pcr2_analysis_software: not provided
 pcr2_method_additional: not provided
+
 ---
 
 # NMNH PCR Protocol 12S rRNA MiFish (Miya)
@@ -439,19 +441,13 @@ For running these libraries on the MiSeq, we recommend spiking 20% PhiX into you
 
 ## REFERENCES
 
-Glenn, T. C., R. Nilsen, T. J. Kieran, J. W. Finger Jr., T. W. Pierson, K. E. Bentley, S. L. Hoffberg, S. Louha, F. J. Garcia-De Leon, M. A. D. R. Portilla, K. D. Reed, J. L. Anderson, J. K. Meece, S. E. Aggrey, R. Rekaya, M. Alabady, M. Belanger, K. Winker, and B. C. Faircloth. Adapterama I: Universal stubs and primers for thousands of dual-indexed Illumina libraries (iTru & iNext). Preprint at http://biorxiv.org/content/early/2016/06/15/049114
-
-Glenn TC, Pierson TW, Bayona-Vásquez NJ, Kieran TJ, Hoffberg SL, Thomas IV JC, Lefever DE, Finger JW, Gao B, Bian X, Louha S, Kolli RT, Bentley KE, Rushmore J, Wong K, Shaw TI, Rothrock Jr MJ, McKee AM, Guo TL, Mauricio R, Molina M, Cummings BS, Lash LH, Lu K, Gilbert GS, Hubbell SP, Faircloth BC. 2019. Adapterama II: universal amplicon sequencing on Illumina plat- forms (TaggiMatrix). PeerJ 7:e7786 http://doi.org/10.7717/peerj.7786.
-
-Miya, M., Y. Sato, T. Fukunaga, T. Sado, J.Y. Poulson, K. Sato, T. Minamoto, S. Yamamoto, H. Yamanaka, H. Araki, M. Kondoh, W. Iwasaki. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. Royal Society Open Science, 2: 150088.
-
-Bell, J. (2011). Overview of tailed amplicon sequencing approach with MiSeq. Illumina.
-
-KAPA Pure Beads technical data sheet, KR1245 – v3.16. July 2016. 6. Herbold, C.W. et al. (2015). A flexible and economical barcoding approach for highly multiplexed amplicon sequencing of diverse target genes. Front Microbiol. https://doi.org/10.3389/fmicb.2015.00731
-
-16S Metagenomic sequencing library preparation. Illumina part # 15044223 Rev. A.
-
-Smithsonian Global ARMS Program – 18S Metabarcoding protocol. 
+1. Glenn, T. C., R. Nilsen, T. J. Kieran, J. W. Finger Jr., T. W. Pierson, K. E. Bentley, S. L. Hoffberg, S. Louha, F. J. Garcia-De Leon, M. A. D. R. Portilla, K. D. Reed, J. L. Anderson, J. K. Meece, S. E. Aggrey, R. Rekaya, M. Alabady, M. Belanger, K. Winker, and B. C. Faircloth. Adapterama I: Universal stubs and primers for thousands of dual-indexed Illumina libraries (iTru & iNext). Preprint at http://biorxiv.org/content/early/2016/06/15/049114
+2. Glenn TC, Pierson TW, Bayona-Vásquez NJ, Kieran TJ, Hoffberg SL, Thomas IV JC, Lefever DE, Finger JW, Gao B, Bian X, Louha S, Kolli RT, Bentley KE, Rushmore J, Wong K, Shaw TI, Rothrock Jr MJ, McKee AM, Guo TL, Mauricio R, Molina M, Cummings BS, Lash LH, Lu K, Gilbert GS, Hubbell SP, Faircloth BC. 2019. Adapterama II: universal amplicon sequencing on Illumina plat- forms (TaggiMatrix). PeerJ 7:e7786 http://doi.org/10.7717/peerj.7786.
+3. Miya, M., Y. Sato, T. Fukunaga, T. Sado, J.Y. Poulson, K. Sato, T. Minamoto, S. Yamamoto, H. Yamanaka, H. Araki, M. Kondoh, W. Iwasaki. (2015). MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine species. Royal Society Open Science, 2: 150088.
+4. Bell, J. (2011). Overview of tailed amplicon sequencing approach with MiSeq. Illumina.
+5. KAPA Pure Beads technical data sheet, KR1245 – v3.16. July 2016. 6. Herbold, C.W. et al. (2015). A flexible and economical barcoding approach for highly multiplexed amplicon sequencing of diverse target genes. Front Microbiol. https://doi.org/10.3389/fmicb.2015.00731
+6. 16S Metagenomic sequencing library preparation. Illumina part # 15044223 Rev. A.
+7. Smithsonian Global ARMS Program – 18S Metabarcoding protocol. 
 
 ## APPENDIX A: DATASHEETS
 
