@@ -18,14 +18,15 @@ language: en
 issued: 2025-12-19
 audience: scientists
 publisher: Smithsonian NMNH
-hasVersion: 1
+hasVersion: 1.1.1
 license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
 pcr_0_1: 1
+inhibition_check_0_1: 0
+inhibition_check: not applicable
 thermocycler: Eppendorf Mastercycler Nexus Thermal Cycler
-amplificationReactionVolume: 10
 assay_name: Fish-12S-MiFish-U-Miya
 assay_validation: not provided
 targetTaxonomicAssay: Actinopterygii
@@ -43,27 +44,31 @@ pcr_primer_vol_forward: 0.3
 pcr_primer_vol_reverse: 0.3
 pcr_primer_conc_forward: 10
 pcr_primer_conc_reverse: 10
+pcr_dna_vol: 1
+amplificationReactionVolume: 10
 probeReporter: not applicable
 probeQuencher: not applicable
 probe_seq: not applicable
 probe_ref: not applicable
 probe_conc: not applicable
-commercial_mm: 2X KAPA HiFi Master Mix
+commercial_mm: 2X KAPA HiFi HotStart ReadyMix (Roche)
 custom_mm: not applicable
-pcr_dna_vol: 1
+block_seq: not applicable
+block_ref: not applicable
+block_taxa: not applicable
 pcr_rep: 3
-nucl_acid_amp: not provided
+nucl_acid_amp: # use Zenodo DOI for this repository
 pcr_cond: initialdenaturation:95_3;denaturation:98_0.33;annealing:64_0.25;elongation:72_0.5;final elongation:72_1;35
 annealingTemp: 64
 pcr_cycles: 35
 pcr_analysis_software: not provided
 pcr_method_additional: not provided
 barcoding_pcr_appr: two-step PCR
-pcr2_thermocycler: not provided
-pcr2_amplificationReactionVolume: 25
-pcr2_commercial_mm: 2X KAPA HiFi Master Mix
-pcr2_custom_mm: not applicable
+pcr2_thermocycler: Eppendorf Mastercycler Nexus Thermal Cycler
 pcr2_dna_vol: 2
+pcr2_amplificationReactionVolume: 25
+pcr2_commercial_mm: 2X KAPA HiFi HotStart ReadyMix (Roche)
+pcr2_custom_mm: not applicable
 pcr2_cond: initialdenaturation:95_3;denaturation:98_0.5;annealing:65_0.25;elongation:72_0.5;final elongation:72_1;5-8
 pcr2_annealingTemp: 65
 pcr2_cycles: 5-8
@@ -123,6 +128,7 @@ pcr2_method_additional: not provided
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2025-12-19 | Initial release |
 | 1.1.0 | 2026-01-05 | Updated protocol with NMNH PCR protocol details |
+| 1.1.1 | 2026-04-11 | Updated YAML front matter |
 
 ### Acronyms and Abbreviations
 
@@ -265,7 +271,7 @@ This protocol describes the use of triplicate reactions. Please note that your p
 
   2. Mix 2 µl PCR product from Step 2 with 2 µl 2X loading dye/10X GelRed. Run gels for 6 minutes at 125V.
 
-  3. Product size should be 275–321 bp for MiFish 12S primers with heterogeneity spacers.
+  3. Product size should be 275–321 bp for MiFish 12S primers with iTru tails and heterogeneity spacers.
 
   4. Pool PCR replicates for each sample, omitting any that had incorrect bands present.
 
