@@ -19,7 +19,7 @@ language: en
 issued: 2025-12-19
 audience: scientists
 publisher: Smithsonian NMNH
-hasVersion: 1.1.1
+hasVersion: 1.1.3
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -130,7 +130,7 @@ pcr2_method_additional: not provided
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2025-12-19 | Initial release |
 | 1.1.0 | 2026-01-05 | Updated protocol with NMNH PCR protocol details |
-| 1.1.1 | 2026-04-11 | Updated YAML front matter |
+| 1.1.3 | 2026-04-11 | Updated YAML front matter |
 
 ### Acronyms and Abbreviations
 
